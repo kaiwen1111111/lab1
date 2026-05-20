@@ -1,21 +1,53 @@
-# a0
-Goal: Build a simple decision-making app
+# CMPUT 301 Assignment 0
+### Goal: Build a simple decision-making app
 
-Mention the developer course: https://developer.android.com/courses/android-basics-compose/course?hl=en
-Point out helpful sections: Sections to learn basic Kotlin, basic Jetpack Compose, using LogCat or debugging, but in particular, make an interactive die for a base of a0: https://developer.android.com/codelabs/basic-android-kotlin-compose-build-a-dice-roller-app?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-2-pathway-2%3Fhl%3Den%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-build-a-dice-roller-app&hl=en#0
+## Prelude
+Suppose you are going to Japan, and you know you will have a hard time choosing which restaurants to go to. So, you create an app to help you decide. <br></br>
+There will be some restaurants you would really want to go to, some that you kinda want to go to, and others that you don't really want to go to. 
+You decide that you will have 3 buttons, each with a different probability of outputting "yes, you should go to that restaurant" or "no, you shouldn't go to that restaurant". 
+> For example, you can set the probabilities like so:
+> - For restaurants you would really want to go to, you set the probability of outputting "yes" to 50%
+> - For restaurants you kinda want to go to, you set the probability of outputting "yes" to 25%
+> - For restaurants you don't really want to go to, you set the probability of outputting "yes" to 10%
 
-While you can simply copy the solution code, the point is that you understand what is going on, and you can pretty easily extend the die code to create the decision-making app.
+## Requirements
+- At least **3 clickable buttons, each with a different probability** to determine an output
+- At least **1 text/image output, indicating the decision made**
+- Your **student ID number AND ccid indicated clearly** somewhere on your app
 
-Prelude:
-Suppose you will be going to Japan, and you know you will have a hard time choosing which restaurants to go to. So, you create an app to help you decide.
+## Submission Specification
+- Once you finish making the decision-making app, **screen record a video, no longer than 1 minute**, showcasing the actions in the following order:
+1. Click the 1st button 10 times
+2. Click the 2nd button 10 times
+3. Click the 3rd button 10 times
+4. *OPTIONAL: If you have more buttons/features, you can show them after the above actions*
+> [!NOTE]
+> - Please pause for a brief moment in between clicks so that outputs can be clearly seen
+> - You may be unlucky enough that the output stays the same for all 30 (or more) clicks. Try recording the video again, so that we can see that the output isn't hardcoded.
 
-Requirements:
-- Three buttons
+> [!IMPORTANT]
+> - You will need to **submit a zip file containing the video on Canvas**
+> - **Name the zip file and your video file `[your ccid]_decision_making_app`**. For example, `mfdeng_decision_making_app.zip` and `mfdeng_decision_making_app.mp4`
 
-Example: (Image and Video)
+## Grading
+- Assignment 0 is worth 1% of your final grade.
+- It will be graded on a "complete/incomplete" basis. You will receive the full 1% if you follow ALL requirements and submission specifications properly. Missing at least 1 requirement or submission specification will earn you 0%. **There will be no exceptions, partial marks, or late submissions allowed.**
+- Furthermore, while app aesthetics is not emphasized, the app should be fairly intuitive and neat to use. We welcome you to be creative!
 
+## Getting Started 
+If you are unsure of how to get started on assignment 0, please refer to the Android Basics with Compose course: https://developer.android.com/courses/android-basics-compose/course?hl=en <br></br>
+In particular, check out `Introduction to Kotlin` and `Kotlin fundamentals` to learn basic Kotlin skills, `Setup Android Studio` to install and familiarize yourself with Android Studio if you haven't already, and `Build a basic layout` to learn how to use Jetpack Compose to create basic UI.
+> [!TIP]
+> Check out the `Add a button to an app` pathway to create a simple Dice Roller App. You can use this as a solid starting point for assignment 0.
+> While you could simply copy the solution code they provide, if you understand what is going on, you can pretty easily add to the existing Dice Roller App code to create your decision-making app.
 
-Submission requirements
-- Git push code base
-- Video of
-- Update README and License
+## Example
+| Initial Screen | No Output | Yes Output |
+| --- | --- | --- |
+| <img src="example_images/DecisionMakerApp_InitialScreen.jpg" width="300"> | <img src="example_images/DecisionMakerApp_NoOutput.jpg" width="300"> | <img src="example_images/DecisionMakerApp_YesOutput.jpg" width="300"> |
+
+<ins>Example details:</ins>
+Clicking `Ok!` has a 50% chance of outputting "Yes", clicking `Meh` has a 25% chance of outputting "Yes", and clicking `Nah` has a 10% of outputting "Yes"
+
+> [!NOTE]
+> Your app DOES NOT need to look like the example above. (Plus, the example is missing a requirement - which one is it?) It DOES need to follow the specified requirements and submission procedures.
