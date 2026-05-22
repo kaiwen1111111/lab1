@@ -13,6 +13,7 @@ You decide that you will have 3 buttons, each with a different probability of ou
 ## Requirements
 - At least **3 clickable buttons, each with a different probability** to determine an output
 - At least **1 text/image output, indicating the decision made**
+- At least **1 visual indicator that a button has been clicked** (e.g., a click counter or a background color change)
 - Your **student ID number AND ccid indicated clearly** somewhere on your app
 
 ## Submission Specification
