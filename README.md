@@ -37,9 +37,10 @@ You decide that your app will have 3 buttons, each with a different probability 
 
 ## Getting Started 
 If you are unsure of how to get started on assignment 0, please refer to the Android Basics with Compose course: https://developer.android.com/courses/android-basics-compose/course?hl=en <br></br>
-In particular, check out `Introduction to Kotlin` and `Kotlin fundamentals` to learn basic Kotlin skills, `Setup Android Studio` to install and familiarize yourself with Android Studio if you haven't already, and `Build a basic layout` to learn how to use Jetpack Compose to create basic UI.
-> [!TIPS]
-> Check out the `Add a button to an app` pathway to create a simple Dice Roller App. You can use this as a solid starting point for assignment 0.
+In particular, check out `Introduction to Kotlin` (Unit 1) and `Kotlin fundamentals` (Unit 2) to learn basic Kotlin skills, `Setup Android Studio` (Unit 1) to install and familiarize yourself with Android Studio if you haven't already, and `Build a basic layout` (Unit 1) to learn how to use Jetpack Compose to create basic UI.
+
+> [!TIP]
+> Check out the `Add a button to an app` (Unit 2) pathway to create a simple Dice Roller App. You can use this as a solid starting point for assignment 0.
 > While you could simply copy the solution code they provide, if you understand what is going on, you can very easily add to the existing Dice Roller App code to create your decision-making app.
 
 ## Example
