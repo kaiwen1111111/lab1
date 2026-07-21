@@ -11,7 +11,7 @@ You decide that your app will have 3 buttons, each with a different probability 
 > - For restaurants you don't really want to go to, you set the probability of outputting "yes" to 10%
 
 ## Requirements
-- At least **3 clickable buttons, each with a different probability** to determine an output
+- At least **3 clickable buttons, each with different probabilities** to determine an output. No button may have a guaranteed (100%) outcome.
 - At least **1 text/image output, indicating the decision made**
 - At least **1 visual indicator that a button has been clicked** (e.g., a click counter, background color change, etc.)
 - Your **Student ID Number AND CCID indicated clearly** somewhere on your app
@@ -41,7 +41,7 @@ In particular, check out `Introduction to Kotlin` (Unit 1) and `Kotlin fundament
 
 > [!TIP]
 > Check out the `Add a button to an app` (Unit 2) pathway to create a simple Dice Roller App. You can use this as a solid starting point for assignment 0.
-> While you could simply copy the solution code they provide, if you understand what is going on, you can very easily add to the existing Dice Roller App code to create your decision-making app.
+> While you could copy the solution code they provide, if you understand what is going on, you can very easily add to the existing Dice Roller App code to create your decision-making app.
 
 ## Example
 | Initial Screen | No Output | Yes Output |
