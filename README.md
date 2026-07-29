@@ -44,14 +44,13 @@ In particular, check out `Introduction to Kotlin` (Unit 1) and `Kotlin fundament
 > While you could copy the solution code they provide, if you understand what is going on, you can very easily add to the existing Dice Roller App code to create your decision-making app.
 
 ## Example
-| Initial Screen | No Output | Yes Output | Alternate Initial Screen |
+| Initial Screen | No Output | Yes Output | Alternative Initial Screen |
 | --- | --- | --- | --- | 
-| <img src="example_images/DecisionMakerApp_InitialScreen.jpg" width="300"> | <img src="example_images/DecisionMakerApp_NoOutput.jpg" width="300"> | <img src="example_images/DecisionMakerApp_YesOutput.jpg" width="300"> | <img src="example_images/DecisionMakerApp_InitialScreen.jpg" width="300"> |
+| <img src="example_images/DecisionMakerApp_InitialScreen.jpg" width="300"> | <img src="example_images/DecisionMakerApp_NoOutput.jpg" width="300"> | <img src="example_images/DecisionMakerApp_YesOutput.jpg" width="300"> | <img src="example_images/DecisionMakerApp_AlternativeInitialScreen.png" width="300"> |
 
 <ins>Example details:</ins>
-Clicking `Ok!` has a 50% chance of outputting "Yes", clicking `Meh` has a 25% chance of outputting "Yes", and clicking `Nah` has a 10% chance of outputting "Yes"
-
-
+Clicking `Ok!` has a 50% chance of outputting "Yes", clicking `Meh` has a 25% chance of outputting "Yes", and clicking `Nah` has a 10% chance of outputting "Yes" <br></br>
+The Alternative Initial Screen shows alternative text you could use for your buttons. <br></br>
 
 > [!NOTE]
-> Your app DOES NOT need to look like the examples above. (Plus, the examples are missing a requirement - which one is it?) It DOES need to follow the specified requirements and submission procedures.
+> Your app DOES NOT need to look like the example above. (Plus, the example are missing a requirement - which one is it?) It DOES need to follow the specified requirements and submission procedures.
